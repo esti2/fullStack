@@ -74,8 +74,7 @@ div.content {
 }
 
 .section4 {
-    flex: 0.2;
-    display: flex;
+
     align-items: center;
     justify-content: center;
     padding: 20px;
@@ -85,9 +84,28 @@ div.content {
     width: 100%;
 }
 
-.line4 {
+.line1 {
+    align-items: center;
+    justify-content: flex-end;
     background-color: rgb(221, 159, 164);
-    width: 150px;
-    height: 150px;
+    width: 100px;
+    height: 20px;
     border-radius: 5px;
+    margin: 10px;
+}
+
+.line2 {
+    background-color: rgb(221, 159, 164);
+    width: 100px;
+    height: 20px;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+.line3 {
+    background-color: rgb(221, 159, 164);
+    width: 70px;
+    height: 20px;
+    border-radius: 5px;
+    margin: 10px;
 }
