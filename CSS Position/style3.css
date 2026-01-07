@@ -1,0 +1,66 @@
+.purple {
+    background-color: rgb(182, 125, 228);
+    width: 150px;
+    height: 100px;
+    position: relative;
+}
+
+.a1 {
+    background-color: rgb(144, 142, 146);
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    bottom: 5px;
+    left: 5px;
+}
+
+.a2 {
+    background-color: rgb(144, 142, 146);
+    width: 10px;
+    height: 40px;
+    position: absolute;
+    bottom: 5px;
+    left: 20px;
+}
+
+.a3 {
+    background-color: rgb(144, 142, 146);
+    width: 10px;
+    height: 70px;
+    position: absolute;
+    bottom: 5px;
+    left: 35px;
+}
+
+.a4 {
+    background-color: rgb(144, 142, 146);
+    width: 10px;
+    height: 60px;
+    position: absolute;
+    bottom: 5px;
+    left: 50px;
+}
+
+.a5 {
+    background-color: rgb(144, 142, 146);
+    width: 10px;
+    height: 50px;
+    position: absolute;
+    bottom: 5px;
+    left: 65px;
+}
+
+.a6 {
+    background-color: rgb(144, 142, 146);
+    width: 10px;
+    height: 30px;
+    position: absolute;
+    bottom: 5px;
+    left: 80px;
+}
+
+.Time {
+    bottom: 5px;
+    position: absolute;
+    left: 110px;
+}

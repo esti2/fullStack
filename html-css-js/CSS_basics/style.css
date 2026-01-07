@@ -1,0 +1,90 @@
+#hello1 {
+    font-size: 15px;
+    color: brown;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#hello2 {
+    font-size: 20px;
+    color: aqua;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#hello3 {
+    font-size: 25px;
+    color: blue;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.new {
+    background-color: burlywood;
+    padding: 10px 10px 10px 10px;
+}
+
+span {
+    height: 50px;
+    width: 50px;
+    display: inline-block;
+    border: 1px solid black;
+}
+
+#first {
+
+    background-color: cadetblue;
+
+}
+
+#second {
+    background-color: chocolate;
+}
+
+button {
+    background-color: rgb(87, 184, 87);
+}
+
+#container {
+    height: 133px;
+    width: 215px;
+    background-color: rgb(189, 188, 188);
+    box-shadow: 5px 5px 10px black;
+}
+
+th {
+    background-color: rgb(214, 210, 210);
+}
+
+td {
+    background-color: rgb(183, 219, 183);
+    border: 2px solid rgb(148, 169, 175);
+}
+
+table {
+    border: 2px solid black;
+}
+
+
+.image-container {
+    width: 300px;
+    position: relative;
+    margin: 40px auto;
+}
+
+.image-container img {
+    width: 100%;
+}
+
+.transparent-title {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background: rgba(0, 0, 0, 0.3);
+    color: rgb(0, 0, 0, 0.2);
+}
+
+.Another-title {
+    position: absolute;
+    bottom: 140px;
+    left: 10px;
+    background: black;
+    color: rgb(235, 220, 91);
+}

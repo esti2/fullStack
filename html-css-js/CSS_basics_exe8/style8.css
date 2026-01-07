@@ -1,0 +1,111 @@
+h1 {
+    text-align: center;
+}
+
+h2 {
+    color: rgb(60, 114, 212);
+}
+
+.exe1 strong {
+    color: blueviolet;
+}
+
+.exe2 {
+    background-color: rgb(240, 241, 225);
+}
+
+ol>li {
+    color: coral;
+}
+
+ul strong {
+    font-family: Arial, Helvetica, sans-serif;
+    color: coral;
+}
+
+.exe2 h2 {
+    background-color: rgb(201, 232, 240);
+}
+
+.exe3 {
+    background-color: rgb(80, 105, 105);
+}
+
+.exe4 {
+    background-color: rgb(36, 34, 34);
+}
+
+table {
+    border: 2px solid rgb(57, 206, 106);
+    align-items: center;
+    margin: 0 auto;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: small;
+}
+
+header {
+    color: rgb(57, 206, 106);
+}
+
+.exe4 h2 {
+    color: rgb(57, 206, 106);
+    text-align: center;
+}
+
+.exe4 p {
+    color: rgb(214, 167, 38);
+    text-align: center;
+}
+
+table tr th {
+    border: 1px solid gray;
+    color: rgb(57, 206, 106);
+}
+
+table tr:not(.header) th {
+    border: 1px solid gray;
+    color: rgb(214, 167, 38);
+}
+
+table tr td {
+    border: 1px solid gray;
+    color: rgb(181, 181, 197);
+}
+
+button {
+    color: white;
+    border-radius: 4px;
+    border: 1px solid gray;
+}
+
+.Reset {
+    background-color: red;
+}
+
+.Send {
+    background-color: green;
+}
+
+.exe5 h2 {
+    text-align: center;
+    align-items: center;
+}
+
+fieldset legend {
+    color: rgb(60, 114, 212);
+
+}
+
+legend {
+    background-color: white;
+}
+
+fieldset {
+    background-color: rgb(234, 238, 237);
+
+    border: 2px solid rgb(60, 114, 212);
+    border: 2px solid #6a1b9a;
+    border-radius: 10px;
+    padding: 15px;
+
+}

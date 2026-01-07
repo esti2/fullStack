@@ -1,0 +1,26 @@
+.red {
+    background-color: rgb(146, 146, 146);
+    width: 250px;
+    height: 200px;
+    position: relative;
+    border-radius: 4px;
+}
+
+.gray {
+    background-color: hsl(0, 48%, 52%);
+    width: 250px;
+    height: 170px;
+    top: 40px;
+    position: absolute;
+    border-radius: 0px 0px 10px 10px;
+}
+
+.white {
+    background-color: white;
+    width: 140px;
+    height: 170px;
+    bottom: 40px;
+    right: 55px;
+    position: absolute;
+    border-radius: 10px;
+}
