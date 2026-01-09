@@ -1,0 +1,28 @@
+h1 {
+    width: 36px;
+    height: 150px;
+}
+
+p {
+    width: 16px;
+}
+
+@media(max-width: 600px) {
+    h1 {
+        width: 24px;
+    }
+
+    p {
+        width: 14px;
+    }
+}
+
+@media(min-width: 900px) {
+    h1 {
+        width: 48px;
+    }
+
+    p {
+        width: 18px;
+    }
+}
