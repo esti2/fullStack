@@ -11,27 +11,78 @@ body {
     flex-wrap: wrap;
 }
 
+/* .parent {
+    position: relative;
+
+} */
+
 img {
     width: 100%;
+    display: block;
 }
+
 
 /* mobile */
 @media (max-width: 600px) {
-    img {
+
+    .parent1,
+    .parent2,
+    .parent3,
+    .parent4,
+    .parent5,
+    .parent6 {
         width: 100%;
     }
 }
 
 /* Tablet */
 @media (min-width: 600px) and (max-width: 900px) {
-    img {
+
+    .parent1,
+    .parent2,
+    .parent3,
+    .parent4,
+    .parent5,
+    .parent6 {
         width: 50%;
     }
 }
 
 /* desktop */
 @media (min-width: 900px) {
-    img {
+
+    .parent1,
+    .parent2,
+    .parent3,
+    .parent4,
+    .parent5,
+    .parent6 {
         width: calc(100%/3);
     }
+}
+
+
+.parent1,
+.parent2,
+.parent3,
+.parent4,
+.parent5,
+.parent6 {
+    position: relative;
+}
+
+.img1,
+.img2,
+.img3,
+.img4,
+.img5,
+.img6 {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    background: rgba(0, 0, 0, 0.4);
+    color: rgba(255, 255, 255, 0.8);
+    padding: 6px 10px;
+    border-radius: 6px;
+    z-index: 2;
 }
