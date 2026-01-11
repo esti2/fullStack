@@ -1,0 +1,57 @@
+.sum {
+    color: chocolate;
+    font-weight: bold;
+}
+
+button {
+    background: linear-gradient(135deg, #6f7ae0, #7b5fc7);
+
+    color: white;
+    border-radius: 5px;
+}
+
+
+
+.main2 {
+    background-color: white;
+}
+
+img {
+    color: rgba(255, 255, 255, 0.8);
+    width: 20px;
+    height: 20px;
+}
+
+
+.main {
+    background: linear-gradient(135deg, #6f7ae0, #7b5fc7);
+}
+
+/* mobile */
+@media (max-width: 600px) {
+    .sumAndAdd {
+        align-items: center;
+
+        /* justify-content: space-between; */
+    }
+}
+
+/* Tablet */
+@media (min-width: 600px) and (max-width: 900px) {
+    .sumAndAdd {
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+/* desktop */
+@media (min-width: 900px) {
+    .sumAndAdd {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .main {
+        display: flex;
+    }
+}
