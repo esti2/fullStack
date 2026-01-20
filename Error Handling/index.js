@@ -38,17 +38,6 @@ function readFileWithErrorHandling(filePath, callback) {
             callback(`File read successfully. Size: ${data.length} bytes`);
         }
     })
-    try {
-        return fs.existsSync(txt);
-    } catch (error) {
-        return
-    }
-    try {
-        return
-    } catch (error) {
-        return `not Read: ${txt}`
-    }
-    return "successful";
 }
 
 
