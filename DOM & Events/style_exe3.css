@@ -1,0 +1,15 @@
+#container {
+    /* איך הקופסאות מסודרות? */
+    display: grid;
+    grid-template-columns: repeat(3, 50px);
+    /* כמה עמודות? */
+    gap: 10px;
+}
+
+.box {
+    width: 50px;
+    height: 50px;
+    border: 5px;
+    background-color: yellow;
+    /* צבע התחלתי */
+}
